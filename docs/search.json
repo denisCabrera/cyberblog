@@ -1,16 +1,58 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "cyberblog",
+    "objectID": "compliance/nistai.html",
+    "href": "compliance/nistai.html",
+    "title": "NIST AI 600-1 Overview",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "The NIST AI 600-1 document, titled Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile, is a companion to NIST’s broader AI Risk Management Framework (AI RMF 1.0). It specifically focuses on Generative AI (GAI) and how organizations can manage the risks unique to or exacerbated by GAI systems.\nOfficial Source: https://doi.org/10.6028/NIST.AI.600-1\n\n\n\n\nSupports Executive Order 14110 on Safe, Secure, and Trustworthy AI.\nHelps orgs manage GAI risks using Govern, Map, Measure, Manage functions.\nEncourages cross-sectoral adoption of safe, responsible AI practices.\n\n\n\n\n\n\n\nExplains the profile’s role as an implementation guide for using the AI RMF with Generative AI.\n\n\n\nOutlines 12 key risk areas, such as:\n\nConfabulation (hallucination)\nData privacy\nCBRN threats\nHarmful bias & homogenization\nEnvironmental impact\nIP violations\nDeepfakes & abuse content\nHuman over-reliance or aversion\nInfo integrity and security issues\n\n\nEach risk is mapped to Trustworthy AI Characteristics like safety, privacy, accountability, and fairness.\n\n\n\n\nDetailed tables aligned with AI RMF categories and subcategories, providing actionable steps for managing GAI risk at every stage of the AI lifecycle.\n\n\n\n\n\n\n\n\n\n\n\n\nCategory\nDescription\n\n\n\n\nCBRN Information\nAccess to dangerous knowledge or tools\n\n\nConfabulation\nGenerating believable but false content\n\n\nDangerous Content\nSelf-harm, violence, radicalization\n\n\nData Privacy\nLeaks, inferences, training on PII\n\n\nEnvironmental\nHigh compute/energy use\n\n\nBias & Homogenization\nAmplifying stereotypes or flattening diversity\n\n\nHuman-AI Config\nMisuse due to over-trust or anthropomorphizing AI\n\n\nInfo Integrity\nDisinformation, deepfakes\n\n\nInfo Security\nGAI used for hacking or vulnerable to attacks\n\n\nIP Risk\nCopyright, plagiarism, trade secrets\n\n\nObscene/Abusive\nNonconsensual AI-generated content\n\n\nSupply Chain\nLack of transparency in upstream components\n\n\n\n\n\n\n\n\nAlign internal policies with Govern section guidance.\nImplement risk-based model assessments.\nDevelop strong incident response plans and content provenance strategies.\nPerform human-in-the-loop evaluations to detect hallucinations, bias, or misuse.\n\n\n\n\n\n\nDownload PDF from NIST.gov\n\n\nThis summary is part of a broader effort to make AI compliance and security guidance more accessible to professionals working with cloud-based AI systems and LLMs."
+  },
+  {
+    "objectID": "compliance/nistai.html#purpose-of-the-profile",
+    "href": "compliance/nistai.html#purpose-of-the-profile",
+    "title": "NIST AI 600-1 Overview",
+    "section": "",
+    "text": "Supports Executive Order 14110 on Safe, Secure, and Trustworthy AI.\nHelps orgs manage GAI risks using Govern, Map, Measure, Manage functions.\nEncourages cross-sectoral adoption of safe, responsible AI practices."
+  },
+  {
+    "objectID": "compliance/nistai.html#main-sections",
+    "href": "compliance/nistai.html#main-sections",
+    "title": "NIST AI 600-1 Overview",
+    "section": "",
+    "text": "Explains the profile’s role as an implementation guide for using the AI RMF with Generative AI.\n\n\n\nOutlines 12 key risk areas, such as:\n\nConfabulation (hallucination)\nData privacy\nCBRN threats\nHarmful bias & homogenization\nEnvironmental impact\nIP violations\nDeepfakes & abuse content\nHuman over-reliance or aversion\nInfo integrity and security issues\n\n\nEach risk is mapped to Trustworthy AI Characteristics like safety, privacy, accountability, and fairness.\n\n\n\n\nDetailed tables aligned with AI RMF categories and subcategories, providing actionable steps for managing GAI risk at every stage of the AI lifecycle."
+  },
+  {
+    "objectID": "compliance/nistai.html#categories-of-gai-risk-section-2-summary",
+    "href": "compliance/nistai.html#categories-of-gai-risk-section-2-summary",
+    "title": "NIST AI 600-1 Overview",
+    "section": "",
+    "text": "Category\nDescription\n\n\n\n\nCBRN Information\nAccess to dangerous knowledge or tools\n\n\nConfabulation\nGenerating believable but false content\n\n\nDangerous Content\nSelf-harm, violence, radicalization\n\n\nData Privacy\nLeaks, inferences, training on PII\n\n\nEnvironmental\nHigh compute/energy use\n\n\nBias & Homogenization\nAmplifying stereotypes or flattening diversity\n\n\nHuman-AI Config\nMisuse due to over-trust or anthropomorphizing AI\n\n\nInfo Integrity\nDisinformation, deepfakes\n\n\nInfo Security\nGAI used for hacking or vulnerable to attacks\n\n\nIP Risk\nCopyright, plagiarism, trade secrets\n\n\nObscene/Abusive\nNonconsensual AI-generated content\n\n\nSupply Chain\nLack of transparency in upstream components"
+  },
+  {
+    "objectID": "compliance/nistai.html#suggested-next-steps-for-teams",
+    "href": "compliance/nistai.html#suggested-next-steps-for-teams",
+    "title": "NIST AI 600-1 Overview",
+    "section": "",
+    "text": "Align internal policies with Govern section guidance.\nImplement risk-based model assessments.\nDevelop strong incident response plans and content provenance strategies.\nPerform human-in-the-loop evaluations to detect hallucinations, bias, or misuse."
+  },
+  {
+    "objectID": "compliance/nistai.html#download-read-the-full-nist-ai-600-1-profile",
+    "href": "compliance/nistai.html#download-read-the-full-nist-ai-600-1-profile",
+    "title": "NIST AI 600-1 Overview",
+    "section": "",
+    "text": "Download PDF from NIST.gov\n\n\nThis summary is part of a broader effort to make AI compliance and security guidance more accessible to professionals working with cloud-based AI systems and LLMs."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site"
+    "text": "About Me\nHey — I’m glad you’re here.\nI’m a cybersecurity practitioner who spends a lot of time exploring how technology works under the hood — especially when it comes to cloud infrastructure, AI systems, and the ever-growing landscape of digital threats.\nThis blog is my personal knowledge base, journal, and experiment log. I write about:\n\nCybersecurity fundamentals & emerging threats\n\nSecuring cloud environments (AWS, Azure, GCP)\n\nAI security — prompt injection, model exploits, data leakage\n\nTools, checklists, real-world scenarios, and walkthroughs\n\nMy goal is simple: make complex security topics easier to understand, and share what I learn as I go.\nWhether you’re just getting started in tech or you’ve been in the trenches for years — I hope you find something here that helps you think deeper, work smarter, or stay a little more secure.\nLet’s build and break things — responsibly."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cyber | Cloud | AI Security",
+    "section": "",
+    "text": "Welcome to My Cybersecurity Blog\nThis site is dedicated to breaking down the world of cybersecurity, cloud security, and the challenges of securing AI systems.\nI cover:\n\nCyber fundamentals & vulnerabilities\nHardening cloud environments (AWS, Azure, GCP)\nSecurity risks in AI/ML and how to mitigate them\nHands-on tools, cheat sheets, and real-world walkthroughs\n\nWhether you’re an infosec pro, a student, or someone curious about how modern tech stays secure (or fails to), there’s something here for you."
   }
 ]

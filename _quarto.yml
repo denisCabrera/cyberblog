@@ -10,22 +10,6 @@ website:
         href: index.qmd
       - text: Blog
         href: blog/index.qmd
-      - text: Blue Team
-        menu:
-          - text: SIEM & Logging
-            href: blueteam/siem.qmd
-          - text: Incident Response
-            href: blueteam/ir.qmd
-          - text: Hardening & Monitoring
-            href: blueteam/hardening.qmd
-      - text: Red Team
-        menu:
-          - text: Web App Hacking
-            href: redteam/web.qmd
-          - text: Recon & OSINT
-            href: redteam/recon.qmd
-          - text: Exploitation Labs
-            href: redteam/exploits.qmd
       - text: Cloud
         menu:
           - text: AWS IAM
@@ -34,12 +18,8 @@ website:
             href: cloud/logging.qmd
       - text: Compliance
         menu:
-          - text: NIST 800-53
-            href: compliance/nist.qmd
-          - text: STIG Checklists
-            href: compliance/stig.qmd
-          - text: CIS Benchmarks
-            href: compliance/cis.qmd
+          - text: NIST AI
+            href: compliance/nistai.qmd
       - text: Projects
         href: projects/index.qmd
       - text: Resources

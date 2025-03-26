@@ -1,7 +1,20 @@
 ---
-title: "cyberblog"
+title: "Cyber | Cloud | AI Security"
+format: html
+page-layout: full
 ---
 
-This is a Quarto website.
+# Welcome to My Cybersecurity Blog
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This site is dedicated to breaking down the world of **cybersecurity**, **cloud security**, and the challenges of **securing AI systems**.
+
+I cover:
+
+- Cyber fundamentals & vulnerabilities
+- Hardening cloud environments (AWS, Azure, GCP)
+- Security risks in AI/ML and how to mitigate them
+- Hands-on tools, cheat sheets, and real-world walkthroughs
+
+Whether you're an infosec pro, a student, or someone curious about how modern tech stays secure (or fails to), there's something here for you.
+
+---

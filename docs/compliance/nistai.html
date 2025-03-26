@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>nist – CyberSec Lab</title>
+<title>NIST AI 600-1 Overview – CyberSec Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -96,44 +96,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blue-team" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Blue Team</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-blue-team">    
-        <li>
-    <a class="dropdown-item" href="../blueteam/siem.html">
- <span class="dropdown-text">SIEM &amp; Logging</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../blueteam/ir.html">
- <span class="dropdown-text">Incident Response</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../blueteam/hardening.html">
- <span class="dropdown-text">Hardening &amp; Monitoring</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-red-team" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Red Team</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-red-team">    
-        <li>
-    <a class="dropdown-item" href="../redteam/web.html">
- <span class="dropdown-text">Web App Hacking</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../redteam/recon.html">
- <span class="dropdown-text">Recon &amp; OSINT</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../redteam/exploits.html">
- <span class="dropdown-text">Exploitation Labs</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cloud" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Cloud</span>
     </a>
@@ -154,16 +116,8 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-compliance">    
         <li>
-    <a class="dropdown-item" href="../compliance/nist.html">
- <span class="dropdown-text">NIST 800-53</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../compliance/stig.html">
- <span class="dropdown-text">STIG Checklists</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../compliance/cis.html">
- <span class="dropdown-text">CIS Benchmarks</span></a>
+    <a class="dropdown-item" href="../compliance/nistai.html">
+ <span class="dropdown-text">NIST AI</span></a>
   </li>  
     </ul>
   </li>
@@ -187,20 +141,183 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#nist-ai-600-1-generative-ai-risk-management-profile" id="toc-nist-ai-600-1-generative-ai-risk-management-profile" class="nav-link active" data-scroll-target="#nist-ai-600-1-generative-ai-risk-management-profile">NIST AI 600-1: Generative AI Risk Management Profile</a>
+  <ul class="collapse">
+  <li><a href="#purpose-of-the-profile" id="toc-purpose-of-the-profile" class="nav-link" data-scroll-target="#purpose-of-the-profile">Purpose of the Profile</a></li>
+  <li><a href="#main-sections" id="toc-main-sections" class="nav-link" data-scroll-target="#main-sections">Main Sections</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">1. Introduction</a></li>
+  <li><a href="#risks-unique-to-or-exacerbated-by-gai" id="toc-risks-unique-to-or-exacerbated-by-gai" class="nav-link" data-scroll-target="#risks-unique-to-or-exacerbated-by-gai">2. Risks Unique to or Exacerbated by GAI</a></li>
+  <li><a href="#suggested-actions" id="toc-suggested-actions" class="nav-link" data-scroll-target="#suggested-actions">3. Suggested Actions</a></li>
+  </ul></li>
+  <li><a href="#categories-of-gai-risk-section-2-summary" id="toc-categories-of-gai-risk-section-2-summary" class="nav-link" data-scroll-target="#categories-of-gai-risk-section-2-summary">✅ Categories of GAI Risk (Section 2 Summary)</a></li>
+  <li><a href="#suggested-next-steps-for-teams" id="toc-suggested-next-steps-for-teams" class="nav-link" data-scroll-target="#suggested-next-steps-for-teams">Suggested Next Steps for Teams</a></li>
+  <li><a href="#download-read-the-full-nist-ai-600-1-profile" id="toc-download-read-the-full-nist-ai-600-1-profile" class="nav-link" data-scroll-target="#download-read-the-full-nist-ai-600-1-profile">Download &amp; Read the Full NIST AI 600-1 Profile</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">NIST AI 600-1 Overview</h1>
+</div>
 
 
 
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<section id="nist-ai-600-1-generative-ai-risk-management-profile" class="level1">
+<h1>NIST AI 600-1: Generative AI Risk Management Profile</h1>
+<p>The <strong>NIST AI 600-1</strong> document, titled <em>Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile</em>, is a companion to NIST’s broader AI Risk Management Framework (AI RMF 1.0). It specifically focuses on <strong>Generative AI (GAI)</strong> and how organizations can manage the <strong>risks unique to or exacerbated by GAI systems</strong>.</p>
+<p>Official Source: <a href="https://doi.org/10.6028/NIST.AI.600-1">https://doi.org/10.6028/NIST.AI.600-1</a></p>
+<hr>
+<section id="purpose-of-the-profile" class="level2">
+<h2 class="anchored" data-anchor-id="purpose-of-the-profile">Purpose of the Profile</h2>
+<ul>
+<li>Supports <strong>Executive Order 14110</strong> on Safe, Secure, and Trustworthy AI.</li>
+<li>Helps orgs manage GAI risks using <strong>Govern, Map, Measure, Manage</strong> functions.</li>
+<li>Encourages <strong>cross-sectoral</strong> adoption of safe, responsible AI practices.</li>
+</ul>
+<hr>
+</section>
+<section id="main-sections" class="level2">
+<h2 class="anchored" data-anchor-id="main-sections">Main Sections</h2>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">1. Introduction</h3>
+<p>Explains the profile’s role as an implementation guide for using the AI RMF with Generative AI.</p>
+</section>
+<section id="risks-unique-to-or-exacerbated-by-gai" class="level3">
+<h3 class="anchored" data-anchor-id="risks-unique-to-or-exacerbated-by-gai">2. Risks Unique to or Exacerbated by GAI</h3>
+<p>Outlines 12 key risk areas, such as:</p>
+<ul>
+<li>Confabulation (hallucination)</li>
+<li>Data privacy</li>
+<li>CBRN threats</li>
+<li>Harmful bias &amp; homogenization</li>
+<li>Environmental impact</li>
+<li>IP violations</li>
+<li>Deepfakes &amp; abuse content</li>
+<li>Human over-reliance or aversion</li>
+<li>Info integrity and security issues</li>
+</ul>
+<blockquote class="blockquote">
+<p>Each risk is mapped to <strong>Trustworthy AI Characteristics</strong> like safety, privacy, accountability, and fairness.</p>
+</blockquote>
+</section>
+<section id="suggested-actions" class="level3">
+<h3 class="anchored" data-anchor-id="suggested-actions">3. Suggested Actions</h3>
+<p>Detailed tables aligned with AI RMF categories and subcategories, providing <strong>actionable steps</strong> for managing GAI risk at every stage of the AI lifecycle.</p>
+<hr>
+</section>
+</section>
+<section id="categories-of-gai-risk-section-2-summary" class="level2">
+<h2 class="anchored" data-anchor-id="categories-of-gai-risk-section-2-summary">✅ Categories of GAI Risk (Section 2 Summary)</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 59%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CBRN Information</td>
+<td>Access to dangerous knowledge or tools</td>
+</tr>
+<tr class="even">
+<td>Confabulation</td>
+<td>Generating believable but false content</td>
+</tr>
+<tr class="odd">
+<td>Dangerous Content</td>
+<td>Self-harm, violence, radicalization</td>
+</tr>
+<tr class="even">
+<td>Data Privacy</td>
+<td>Leaks, inferences, training on PII</td>
+</tr>
+<tr class="odd">
+<td>Environmental</td>
+<td>High compute/energy use</td>
+</tr>
+<tr class="even">
+<td>Bias &amp; Homogenization</td>
+<td>Amplifying stereotypes or flattening diversity</td>
+</tr>
+<tr class="odd">
+<td>Human-AI Config</td>
+<td>Misuse due to over-trust or anthropomorphizing AI</td>
+</tr>
+<tr class="even">
+<td>Info Integrity</td>
+<td>Disinformation, deepfakes</td>
+</tr>
+<tr class="odd">
+<td>Info Security</td>
+<td>GAI used for hacking or vulnerable to attacks</td>
+</tr>
+<tr class="even">
+<td>IP Risk</td>
+<td>Copyright, plagiarism, trade secrets</td>
+</tr>
+<tr class="odd">
+<td>Obscene/Abusive</td>
+<td>Nonconsensual AI-generated content</td>
+</tr>
+<tr class="even">
+<td>Supply Chain</td>
+<td>Lack of transparency in upstream components</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="suggested-next-steps-for-teams" class="level2">
+<h2 class="anchored" data-anchor-id="suggested-next-steps-for-teams">Suggested Next Steps for Teams</h2>
+<ul>
+<li>Align internal policies with <strong>Govern</strong> section guidance.</li>
+<li>Implement <strong>risk-based model assessments</strong>.</li>
+<li>Develop strong <strong>incident response plans</strong> and content provenance strategies.</li>
+<li>Perform <strong>human-in-the-loop evaluations</strong> to detect hallucinations, bias, or misuse.</li>
+</ul>
+<hr>
+</section>
+<section id="download-read-the-full-nist-ai-600-1-profile" class="level2">
+<h2 class="anchored" data-anchor-id="download-read-the-full-nist-ai-600-1-profile">Download &amp; Read the Full NIST AI 600-1 Profile</h2>
+<ul>
+<li><a href="https://doi.org/10.6028/NIST.AI.600-1">Download PDF from NIST.gov</a></li>
+</ul>
+<hr>
+<p><em>This summary is part of a broader effort to make AI compliance and security guidance more accessible to professionals working with cloud-based AI systems and LLMs.</em></p>
+
+
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

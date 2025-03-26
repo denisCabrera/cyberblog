@@ -1,0 +1,82 @@
+---
+title: "NIST AI 600-1 Overview"
+format: html
+page-layout: full
+---
+
+# NIST AI 600-1: Generative AI Risk Management Profile
+
+The **NIST AI 600-1** document, titled *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile*, is a companion to NIST's broader AI Risk Management Framework (AI RMF 1.0). It specifically focuses on **Generative AI (GAI)** and how organizations can manage the **risks unique to or exacerbated by GAI systems**.
+
+Official Source: [https://doi.org/10.6028/NIST.AI.600-1](https://doi.org/10.6028/NIST.AI.600-1)
+
+---
+
+## Purpose of the Profile
+
+- Supports **Executive Order 14110** on Safe, Secure, and Trustworthy AI.
+- Helps orgs manage GAI risks using **Govern, Map, Measure, Manage** functions.
+- Encourages **cross-sectoral** adoption of safe, responsible AI practices.
+
+---
+
+## Main Sections
+
+### 1. Introduction
+Explains the profile’s role as an implementation guide for using the AI RMF with Generative AI.
+
+### 2. Risks Unique to or Exacerbated by GAI
+Outlines 12 key risk areas, such as:
+
+- Confabulation (hallucination)
+- Data privacy
+- CBRN threats
+- Harmful bias & homogenization
+- Environmental impact
+- IP violations
+- Deepfakes & abuse content
+- Human over-reliance or aversion
+- Info integrity and security issues
+
+> Each risk is mapped to **Trustworthy AI Characteristics** like safety, privacy, accountability, and fairness.
+
+### 3. Suggested Actions
+Detailed tables aligned with AI RMF categories and subcategories, providing **actionable steps** for managing GAI risk at every stage of the AI lifecycle.
+
+---
+
+## ✅ Categories of GAI Risk (Section 2 Summary)
+
+| Category | Description |
+|---------|-------------|
+| CBRN Information | Access to dangerous knowledge or tools |
+| Confabulation | Generating believable but false content |
+| Dangerous Content | Self-harm, violence, radicalization |
+| Data Privacy | Leaks, inferences, training on PII |
+| Environmental | High compute/energy use |
+| Bias & Homogenization | Amplifying stereotypes or flattening diversity |
+| Human-AI Config | Misuse due to over-trust or anthropomorphizing AI |
+| Info Integrity | Disinformation, deepfakes |
+| Info Security | GAI used for hacking or vulnerable to attacks |
+| IP Risk | Copyright, plagiarism, trade secrets |
+| Obscene/Abusive | Nonconsensual AI-generated content |
+| Supply Chain | Lack of transparency in upstream components |
+
+---
+
+## Suggested Next Steps for Teams
+
+- Align internal policies with **Govern** section guidance.
+- Implement **risk-based model assessments**.
+- Develop strong **incident response plans** and content provenance strategies.
+- Perform **human-in-the-loop evaluations** to detect hallucinations, bias, or misuse.
+
+---
+
+## Download & Read the Full NIST AI 600-1 Profile
+
+- [Download PDF from NIST.gov](https://doi.org/10.6028/NIST.AI.600-1)
+
+---
+
+*This summary is part of a broader effort to make AI compliance and security guidance more accessible to professionals working with cloud-based AI systems and LLMs.*

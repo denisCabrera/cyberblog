@@ -2,6 +2,7 @@
 title: "About"
 ---
 
+<<<<<<< HEAD
 About This Blog
 
 Welcome to my blog — where cybersecurity meets innovation. Here, I explore the ever-evolving world of digital security, focusing on topics like cloud security, AI safety, threat detection, and the intersection of cybersecurity with emerging technologies.
@@ -11,3 +12,31 @@ Whether you're a tech enthusiast, a security professional, or just curious about
 I break down complex topics, share personal projects and research, and keep you updated on the latest in cloud security practices, AI vulnerabilities, and how modern systems are being secured (or breached).
 
 Let’s learn, secure, and build a safer digital future — together.
+=======
+---
+title: "About Me"
+format: html
+---
+
+# About Me
+
+Hey — I'm glad you're here.
+
+I'm a cybersecurity practitioner who spends a lot of time exploring how technology works under the hood — especially when it comes to **cloud infrastructure**, **AI systems**, and the ever-growing landscape of **digital threats**.
+
+This blog is my personal knowledge base, journal, and experiment log. I write about:
+
+- Cybersecurity fundamentals & emerging threats  
+- Securing cloud environments (AWS, Azure, GCP)  
+- AI security — prompt injection, model exploits, data leakage  
+- Tools, checklists, real-world scenarios, and walkthroughs
+
+My goal is simple: **make complex security topics easier to understand**, and share what I learn as I go.
+
+Whether you're just getting started in tech or you've been in the trenches for years — I hope you find something here that helps you think deeper, work smarter, or stay a little more secure.
+
+Let’s build and break things — responsibly.
+
+---
+
+>>>>>>> f207037 (update Menu)
