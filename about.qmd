@@ -2,4 +2,12 @@
 title: "About"
 ---
 
-About this site
+About This Blog
+
+Welcome to my blog — where cybersecurity meets innovation. Here, I explore the ever-evolving world of digital security, focusing on topics like cloud security, AI safety, threat detection, and the intersection of cybersecurity with emerging technologies.
+
+Whether you're a tech enthusiast, a security professional, or just curious about how we can stay safe in a connected world, you'll find insights, tools, and real-world applications to help you understand and navigate today's threat landscape.
+
+I break down complex topics, share personal projects and research, and keep you updated on the latest in cloud security practices, AI vulnerabilities, and how modern systems are being secured (or breached).
+
+Let’s learn, secure, and build a safer digital future — together.
